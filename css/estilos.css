@@ -34,18 +34,128 @@ background-attachment: fixed;
 position: relative;
 }
 nav {
-    text-align:right;
-    padding: 30px 50px 0 0;
+    position: absolute;
+    display: flex;
+    margin-left:80%;
+    margin-top:50px;
+    padding: 10px 50px 0 0%;
+text-align: center;
+    transition: 1s;
+    flex-direction: column;
+    max-width:900px;
+    height: 75px;
+   
+    overflow: hidden;
+float: right;
+
 }
-nav > a {
-    color: aliceblue;
+.trigen {
+
+    color: black;
+  list-style: none;
+    font-size: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.trigen:hover {
+    transition: 0.5s;
+    color:white;
+}
+/*.trigen {
+    position: relative;
+justify-content: space-evenly;
+display:flex;
+width: 40px;
+height:40px;
+
+border-radius:10px;
+transition: 0.8;
+
+}
+.trigen:hover {
+    position: relative;
+    justify-content: space-evenly;
+    display:flex;
+    width: 40px;
+    height:40px;
+  
+    border-radius:10px;
+    transition: 0.8;
+    border: solid 2px black;
+    color:black;
+}*/
+nav a img {
+    position: relative;
+justify-content: space-evenly;
+display:flex;
+width: 40px;
+height:40px;
+float: right;
+border-radius:10px;
+transition: 0.8;
+}
+nav a img:hover {
+    transition:0.8s;
+border-radius:10px;
+}
+/*nav {
+    transition: 1s;
+    text-align:center;
+    width:100px;
+    height:100px;
+    overflow: hidden;
+    float: right;
+    margin-right: 20%;
+flex-direction: column;
+position: absolute;
+margin-left:70%;
+
+}*/
+nav:hover {
+    position: absolute;
+    display: flex;
+    margin-left:80%;
+    height:8.5%;
+    padding: 10px 50px 0 0%;
+text-align: center;
+    transition: 2.5s;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+
+}
+
+nav > .aa {
+    background: rgba(255, 255, 255, 0.068);
+padding-top: 10px;
+padding-bottom: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
     font-weight: 300;
     text-decoration: none;
-    margin-right: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+  width:100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
-nav > a:hover{
-    
+
+nav > .aa:hover{
+    background: rgb(250, 73, 73);
     text-decoration: underline;
+    border: solid 2px black;
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+   border-radius: 20px;
+   transition: 0.5s;
+
+}
+.aa:active {
+    font-size: 50px;
+    background-color: aqua;
+    transition: 2s;
 }
 .wave {
     position: absolute;
